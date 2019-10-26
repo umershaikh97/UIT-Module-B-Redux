@@ -1,9 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { incrementCount, decrementCount } from './store/actions.js/counterActions';
+import { incrementCount, decrementCount } from './store/actions/counterActions';
 
 const Counter = (props) => {
-    console.log(props)
     return (<>
         <div style={{ width: '30vw', height: '30vh', backgroundColor: 'white', }}>
             <h2 style={{ color: 'black' }}>Counter</h2>
